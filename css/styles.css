@@ -332,6 +332,8 @@
     }
          
     .about-us-section {
+     
+      
     text-align: center;
     padding-bottom: 94px;
     width: 1170px;
@@ -351,6 +353,7 @@
     }
        
     .about-us {
+     
     text-align: center; 
     display: flex;
     margin: 0 auto;
@@ -358,13 +361,46 @@
     }
        
     .picture{
-    margin-right: 30px;
+      position: relative;
+   margin-right: 30px;
+  
     }
  
     .picture:last-child{
     margin-right: 0;
     }
-       
+   .container-about-us{
+      
+   }
+   .pic-descript{
+   content: "";
+   position: absolute;
+   display: flex;
+   bottom: 0;
+   right: 0px;
+   }
+
+.descript{
+display:flex;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+width: 370px;
+height: 70px;
+margin: 0;
+padding-top: 27px;
+color: #fff;
+justify-content: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+background: rgba(47, 48, 58, 0.8); 
+}
+
+
        
     .our-team-section{
     background: #F5F4FA;
