@@ -286,6 +286,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
 display: flex;
 width: 370px;
 height: 294px;
+overflow: hidden;
 }
 
 .product::before{
@@ -303,7 +304,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 }
 
 .box:hover .product::before{
-    position: ;
 background-color: rgba(33, 150, 243, 0.9); 
 transform: translateY(0);
 opacity: 1;
@@ -339,9 +339,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 transform: translateY(0);
 opacity: 1;  
 }
-    
+ 
 .text-in-box{
-
 padding-left: 24px;
 padding-top: 20px;
 padding-right: 24px;
